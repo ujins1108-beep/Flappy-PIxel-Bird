@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pixel {
+    font-family: 'Press Start 2P', 'Silkscreen', monospace;
+  }
+  .font-arcade {
+    font-family: 'Silkscreen', 'Press Start 2P', monospace;
+  }
+  .pixelated {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Custom retro scrollbar & body constraints */
+body {
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  user-select: none;
+}

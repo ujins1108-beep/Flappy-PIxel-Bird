@@ -1,0 +1,8 @@
+{
+  "name": "Flappy Pixel Bird",
+  "description": "A 2D retro pixel-art side-scrolling arcade game with authentic physics, responsive controls, and 8-bit sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
